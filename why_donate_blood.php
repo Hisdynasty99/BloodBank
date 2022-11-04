@@ -18,7 +18,7 @@
 $active ='why';
 include('head.php');
 ?>
-<?php include'ticker.php'; ?>
+
 <div id="page-container" style="margin-top:50px; position: relative;min-height: 84vh;">
   <div class="container">
   <div id="content-wrap" style="padding-bottom:50px;">

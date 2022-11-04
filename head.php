@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<script src="js/count.js"></script>
+
 
 <style>
 
@@ -73,18 +73,17 @@ a.logo2{
 
 <body>
   <div class="header">
-  <div class="countdown d-flex justify-content-center" data-count="2022/09/10">
-          <h3>%d -</h3>
-          <h3>Days to next donation</h3>
-      </div>
     <a href="home.php" class="logo"<?php if($active=='home') echo "class='logo2'"; ?>>Blood Bank & Donation </a>
     <div class="header-right">
-    <a href="why_donate_blood.php"  <?php if($active=='why') echo "class='act'"; ?>>Why Donate Blood</a>
-    <a href="details.php" >Your Details</a>
-      <a href="contact_us.php" <?php if($active=='contact') echo "class='act'"; ?>>Contact Us</a>
+    <!-- <a href="about_us.php"  <?php if($active=='about') echo "class='act'"; ?> >About Us</a> -->
+    <!-- <a href="why_donate_blood.php"  <?php if($active=='why') echo "class='act'"; ?>>Why Donate Blood</a> -->
+    <a href="Register.php" <?php if($active=='Register') echo "class='act'"; ?>>Register Donor</a>
+      <!-- <a href="donate_blood.php"  <?php if($active=='donate') echo "class='act'"; ?>>Become A Donor</a> -->
+      <a href="need_blood.php" <?php if($active=='need') echo "class='act'"; ?>>Need Blood</a>
       <a href="../logout.php" >Logout</a>
+
     </div>
   </div>
-  <script src="js/count.js"></script>
+
 </body>
 </html>

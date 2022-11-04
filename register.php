@@ -23,7 +23,7 @@ $active ='donate';
         <h1 class="mt-4 mb-3">register Form </h1>
       </div>
 </div>
-<form name="register" action="savedata.php" method="post">
+<form name="register" action="donate_blood.php" method="post">
 <div class="row">
 <div class="col-lg-4 mb-4">
 <div class="font-italic">First_ name<span style="color:red">*</span></div>
@@ -35,11 +35,11 @@ $active ='donate';
 </div><br></br>
 <div class="col-lg-4 mb-4">
 <div class="font-italic">Health_status<span style="color:red">*</span></div>
-<div><input type="text" name="Health_status" class="form-control" required></div>
+<div><input type="text" name="Health_status" class="form-control"></div>
 </div>
 <div class="col-lg-4 mb-4">
 <div class="font-italic">Blood_effection<span style="color:red">*</span></div>
-<div><input type="text" name="Blood_effection" class="form-control" required></div>
+<div><input type="text" name="Blood_effection" class="form-control"></div>
 </div>
 <div class="col-lg-4 mb-4">
 <div class="font-italic">Location<span style="color:red">*</span></div>
@@ -55,10 +55,10 @@ $active ='donate';
 </div>
 </div>
 <div class="row">
-<div class="col-lg-4 mb-4">
+<!-- <div class="col-lg-4 mb-4">
 <div class="font-italic">Date of birth<span style="color:red">*</span></div>
 <div><input type="text" name="Date of birth" class="form-control" required></div>
-</div>
+</div> -->
 <div class="col-lg-4 mb-4">
 <div class="font-italic">Gender<span style="color:red">*</span></div>
 <div><select name="Gender" class="form-control" required>

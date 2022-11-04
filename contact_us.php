@@ -13,7 +13,6 @@
 <body>
 <?php $active ='contact';
 include 'head.php'; ?>
-<?php include'ticker.php'; ?>
 <?php
 if(isset($_POST["send"])){
   $name=$_POST['fullname'];
